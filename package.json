@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "watch": "watch 'npm run build' ./public/datepicker.html"
+  },
+  "dependencies": {
+    "watch": "^0.13.0"
+  }
+}
